@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--...-->
+
+  <title>RewardEvents</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="assets/css/bootstrap-select.css" >
+  <link rel="stylesheet" href="assets/css/bootstrap-icons-1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/style.css" >
+  <link rel="stylesheet" href="assets/css/fontawesome-free-6.4.0-web/css/all.css" />
+  <script src="assets/js/jquery-3.7.0.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap-select.js"></script>
+
+
+</head>
+<body class="main" id="body-pd">
+  <div class="loading">
+    <div class="container">
+        <div class="row vh-100">
+            <div class="col-sm-12 my-auto">
+                <div class="card card-block w-100 mx-auto mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Pesquise a ID do produto que aparece no video...</h5>
+                        <div class="input-group mt-4">
+                            <input type="text" class="form-control bg-dark" id="inputProduto" placeholder="Digite a id do produto">
+                        </div>
+                    </div>
+                </div>
+                <div class="container overflow-scroll desktop-device">                
+                    <div class="card card-block w-100 h-100" data-product="0" data-title="mousepad" style="display: none;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-6 card-block">
+                                    <blockquote class="tiktok-embed " cite="https://www.tiktok.com/@dicasdecomprastech/video/7255396507266895109" data-video-id="7255396507266895109" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@dicasdecomprastech" href="https://www.tiktok.com/@dicasdecomprastech?refer=embed">@dicasdecomprastech</a> MOUSE PAD BARATO ALIEXPRESS  LINK NA BIO R$52.39 <a title="mousepad" target="_blank" href="https://www.tiktok.com/tag/mousepad?refer=embed">#mousepad</a> <a title="dicas" target="_blank" href="https://www.tiktok.com/tag/dicas?refer=embed">#dicas</a> <a title="aliexpress" target="_blank" href="https://www.tiktok.com/tag/aliexpress?refer=embed">#aliexpress</a> <a target="_blank" title="♬ Aesthetic - Gaspar" href="https://www.tiktok.com/music/Aesthetic-7087825341401565185?refer=embed">♬ Aesthetic - Gaspar</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                                </div>
+                                <div class="col-6 d-flex flex-column justify-content-between">
+                                    <h2>Mouse Pad Chinese Dragon Gaming 100x50</h2>
+                                    <div>
+                                        
+                                        <h2>VALOR ORIGINAL  </h2> 
+                                        <h1>R$ 103,66</h1>
+
+                                    </div>
+                                    <div>
+                                        <h2>AGORA</h2>
+                                        <h1>R$ 59,07</h1>
+                                    </div>
+                                    <div><a class="btn btn-lg bt-form" type="button" href="https://s.click.aliexpress.com/e/_mrAb6LI">COMPRAR </a></div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mobile-device overflow-x-scroll">
+                    <div class="card card-block w-100 h-100" data-product="1" data-title="mousepad" style="display: none;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="card-block">
+                                    <blockquote class="tiktok-embed " cite="https://www.tiktok.com/@dicasdecomprastech/video/7255396507266895109" data-video-id="7255396507266895109" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@dicasdecomprastech" href="https://www.tiktok.com/@dicasdecomprastech?refer=embed">@dicasdecomprastech</a> MOUSE PAD BARATO ALIEXPRESS  LINK NA BIO R$52.39 <a title="mousepad" target="_blank" href="https://www.tiktok.com/tag/mousepad?refer=embed">#mousepad</a> <a title="dicas" target="_blank" href="https://www.tiktok.com/tag/dicas?refer=embed">#dicas</a> <a title="aliexpress" target="_blank" href="https://www.tiktok.com/tag/aliexpress?refer=embed">#aliexpress</a> <a target="_blank" title="♬ Aesthetic - Gaspar" href="https://www.tiktok.com/music/Aesthetic-7087825341401565185?refer=embed">♬ Aesthetic - Gaspar</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                                    <h2>Mouse Pad Chinese Dragon Gaming 100x50</h2>
+                                    <div>
+                                        
+                                        <h2>VALOR ORIGINAL  </h2> 
+                                        <h1>R$ 103,66</h1>
+
+                                    </div>
+                                    <div>
+                                        <h2>AGORA</h2>
+                                        <h1>R$ 59,07</h1>
+                                    </div>
+                                    <div><a class="btn btn-lg bt-form" type="button" href="https://s.click.aliexpress.com/e/_mrAb6LI">COMPRAR </a></div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+<script>
+
+var inputProduto = document.getElementById('inputProduto');
+
+// Adicionando um ouvinte de evento para capturar a entrada no input
+inputProduto.addEventListener('input', function() {
+  var valorInput = inputProduto.value; // Obtendo o valor digitado no input
+  
+  // Obtendo todas as divs que têm o atributo 'data-product'
+  var divsProduto = document.querySelectorAll('div[data-product]');
+  
+  // Percorrendo todas as divs e exibindo somente as que correspondem ao ID de produto digitado
+  for (var i = 0; i < divsProduto.length; i++) {
+    var divProduto = divsProduto[i];
+    var produto = divProduto.getAttribute('data-product');
+    var titulo = divProduto.getAttribute('data-title').toLowerCase();
+    
+    // Verificando se o ID de produto corresponde ao valor digitado
+    if (produto === valorInput || titulo.includes(valorInput)) {
+      divProduto.style.display = 'block'; // Exibindo a div
+    } else {
+      divProduto.style.display = 'none'; // Ocultando a div
+    }
+  }
+});
+</script>
+</html>
